@@ -2,7 +2,7 @@ import os
 import asyncio
 from pyrogram import Client, filters
 from pyrogram.errors import FloodWait
-from utils.misc import add_module_info
+from utils import add_module_info
 
 TXT_FILE = "database/text_raid.txt"
 active_raid_tasks = set()
